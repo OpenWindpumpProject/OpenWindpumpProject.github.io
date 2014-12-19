@@ -934,7 +934,7 @@ nav#menu #menu-nav li a:hover {
 	-moz-box-shadow: none;
 	box-shadow: none;
 	
-	background: #26292E;
+	background: #0d47a1;
     color: #FFFFFF;
     font-size: 16px;
     height: auto;
@@ -960,8 +960,8 @@ nav#menu #menu-nav li a:hover {
 }
 
 #contact-form .submit {
-    background: #3C3F45;
-    color: #23262C;
+    background: #0d47a1;
+    color: #FFFFFF;
     cursor: pointer;
     display: inline-block;
     font-size: 18px;
@@ -1062,7 +1062,7 @@ nav#menu #menu-nav li a:hover {
 	width: 70px;
 	height: 70px;
 
-	background: #26292E;
+	background: #0d47a1;
 	
 	-webkit-transition: all 400ms ease-out 0s;	
 	   -moz-transition: all 400ms ease-out 0s;
@@ -1130,7 +1130,7 @@ footer {
 	position: relative;
 	width: 100%;
 	height: auto;
-	background: #26292E;
+	background: #0d47a1;
 	text-align: center;
 	z-index: 99;
 }
