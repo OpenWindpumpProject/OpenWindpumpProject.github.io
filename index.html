@@ -412,18 +412,18 @@
     <div class="row">
     	<div class="span9">
         
-        	<form id="contact-form" class="contact-form" action="#">
+        	<form id="contact-form" class="contact-form" action="mailTo()">
             	<p class="contact-name">
             		<input id="contact_name" type="text" placeholder="Full Name" value="" name="name" />
                 </p>
-                <p class="contact-email">
-                	<input id="contact_email" type="text" placeholder="Email Address" value="" name="email" />
+                <p class="contact-subject">
+                	<input id="contact_subject" type="text" placeholder="Subject" value="" name="subject" />
                 </p>
                 <p class="contact-message">
                 	<textarea id="contact_message" placeholder="Your Message" name="message" rows="15" cols="40"></textarea>
                 </p>
                 <p class="contact-submit">
-                	<a id="contact-submit" class="submit" href="#">send your email</a>
+                	<a id="contact-submit" class="submit" onclick="mailTo();" href="#">send message / open mail client</a>
                 </p>
                 
                 <div id="response">
@@ -523,6 +523,7 @@
 <script src="js/jquery.tweet.js"></script> <!-- Tweet -->
 <script src="js/plugins.js"></script> <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
 <script src="js/main.js"></script> <!-- Default JS -->
+<script src="js/mailto.js"></script> <!-- JS for contact form -->
 <!-- End Js -->
 
 </body>
