@@ -229,7 +229,7 @@ BRUSHED.tweetFeed = function(){
           count: 10,
 		  template: "{text}{time}",
 		  filter: function(t){ return ! /^@\w+/.test(t.tweet_raw_text); },
-          loading_text: "loading ..."
+          loading_text: "This is needs to be filled with content :)"
 	}).bind("loaded", function() {
 	  var ul = $(this).find(".tweet_list");
 	  var ticker = function() {
