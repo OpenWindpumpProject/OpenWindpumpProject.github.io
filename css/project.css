@@ -1,0 +1,15 @@
+/* ==================================================
+   Project Main
+   Add custom styles here and don't overwrite the CSS files from the plugins.
+   That would cause troubles if you want to update the plugins.
+================================================== */
+
+header #logo a {
+    width: 318px;
+    height: 54px;
+    margin-top: -10px;
+}
+
+.fancybox-close {
+    top: 70px;
+}
